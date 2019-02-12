@@ -13,7 +13,5 @@ ReactDOM.render(
       <p>A last decoration</p>
     </ThemedParty>
   </div>,
-  document.getElementById('main')
+  document.getElementById('global')
 );
-
-require('./test/index-test.js'); // Leave this in!
